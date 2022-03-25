@@ -1,4 +1,11 @@
 export default {
+  css: [
+    // SCSS file in the project
+    '~/assets/scss/main.scss'
+  ],
+  styleResources: {
+    scss: ['~/assets/scss/*.scss'],
+  },
   modules:['@nuxt/content'],
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
