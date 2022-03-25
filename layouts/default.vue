@@ -1,12 +1,12 @@
 <template>
   <div>
-    <Header />
+    <Header></Header>
   <Nuxt />
   </div>
 </template>
 
 <script>
-import Header from 'components/Header.vue'
+import Header from '@/components/Header'
 
 export default {
   components: {
