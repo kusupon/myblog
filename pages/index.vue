@@ -34,6 +34,7 @@ body {
 }
 
 .card {
+  display: block;
   margin: 30px 30px;
   width: 25%;
   padding: 40px 0;
@@ -52,5 +53,10 @@ body {
   p {
     font-size: 8px;
   }
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 </style>

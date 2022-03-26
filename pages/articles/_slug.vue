@@ -14,6 +14,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+* {
+  width: 95%;
+  margin: 0 auto;
+}
 
-</style>
+::v-deep h1 {
+  border-bottom: 2px solid #000;
+  margin-top: 20px;
+}
+</style>>
