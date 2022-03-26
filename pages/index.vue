@@ -16,6 +16,8 @@ export default {
     return { articles }
   }
 }
+
+import '/'
 </script>
 
 <style lang="scss" scoped>
