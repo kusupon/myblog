@@ -3,6 +3,7 @@ export default {
     // SCSS file in the project
     '~/assets/scss/main.scss'
   ],
+  css: ['@/assets/css/reset.css'],
   styleResources: {
     scss: ['~/assets/scss/*.scss'],
   },
