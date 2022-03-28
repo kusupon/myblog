@@ -1,10 +1,10 @@
 <template>
   <div class="cards">
     <div class="card" v-for="article in articles" :key="article.slug">
-      <nuxt-link :to="`/articles/${article.slug}`">
+      <nuxt-link :to="`/articles/${article.slug}`" class="link">
         {{ article.title }}
+        <p>{{ article.updatedAt }}</p>
       </nuxt-link>
-      <p>{{ article.updatedAt }}</p>
     </div>
   </div>
 </template>
@@ -20,10 +20,21 @@ export default {
 import '/'
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import '/assets/scss/main.scss';
 * {
   box-sizing: border-box;
+}
+
+.link {
+  display: block;
+  padding: 30px 40px;
+}
+
+.wrapper {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
 }
 body {
   background-color: #fafafa;
@@ -31,20 +42,19 @@ body {
 
 .cards {
   display: block;
+  width: 60%;
+  @include mobile {
+    width: 90%;
+  }
 }
 
 .card {
   display: block;
   margin: 30px 30px;
-  width: 60%;
-  padding: 40px 30px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
   background-color: #fff;
   clear: left;
-  @include mobile {
-    width: 100%;
-  }
   a {
     font-weight: bold;
     font-size: 30px;

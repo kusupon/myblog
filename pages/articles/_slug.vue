@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="content">
     <h1>{{ article.title }}</h1>
     <nuxt-content :document="article" />
   </main>
@@ -15,9 +15,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+main .content {
+  margin-top: 50px;
+}
+
 * {
-  width: 95%;
-  margin: 0 auto;
+  width: 75%;
+  margin-left: 5%;
 }
 
 ::v-deep h1 {

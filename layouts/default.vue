@@ -1,8 +1,10 @@
 <template>
   <div>
   <Header />
+  <div class="wrapper">
   <SideBar />
   <Nuxt />
+  </div>
   </div>
 </template>
 
