@@ -30,15 +30,14 @@ body {
 }
 
 .cards {
-  display: flex;
+  display: block;
 }
 
 .card {
   display: block;
   margin: 30px 30px;
-  width: 25%;
-  padding: 40px 0;
-  text-align: center;
+  width: 60%;
+  padding: 40px 30px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
   background-color: #fff;
