@@ -15,18 +15,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+@import '/assets/scss/main.scss';
 main .content {
   margin-top: 50px;
 }
 
 * {
-  width: 75%;
-  margin-left: 5%;
+  width: 70%;
+  @include mobile {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
+
+
 ::v-deep h1 {
-  border-bottom: 2px solid #000;
   margin-top: 20px;
 }
 </style>>

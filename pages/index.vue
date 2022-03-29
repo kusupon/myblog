@@ -32,9 +32,13 @@ import '/'
 }
 
 .wrapper {
+  display: flex;
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
+  @include mobile {
+    display: block;
+  }
 }
 body {
   background-color: #fafafa;
@@ -42,9 +46,10 @@ body {
 
 .cards {
   display: block;
-  width: 60%;
+  width: 70%;
   @include mobile {
-    width: 90%;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
