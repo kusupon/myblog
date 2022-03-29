@@ -1,8 +1,5 @@
 <template>
   <aside>
-    <div class="rogo">
-      <img src="/assets/img/IMG_3930.jpeg" />
-    </div>
     <div class="introduction">
       <h2 class="name">プロフィール</h2>
       <p>名前:kusupon</p>
