@@ -28,6 +28,9 @@ main .content {
   }
 }
 
+p,h1,h2,h3,h4,h5,a,li {
+  margin-top: 10px;
+}
 
 
 ::v-deep h1 {
