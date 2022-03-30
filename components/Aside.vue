@@ -1,7 +1,7 @@
 <template>
   <aside>
     <div class="introduction">
-      <h2 class="name">プロフィール</h2>
+      <h2 class="name">profile</h2>
       <p>名前:kusupon</p>
       <p>N高等学校 6期生 1年</p>
     </div>
@@ -98,10 +98,10 @@ aside {
   transition: all 0.3s;
   text-decoration: none;
   color: rgb(0, 0, 0);
-  padding: 10px 25px;
+  padding: 10px 0;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgb(169, 169, 169);
 }
 
 .github:hover {

@@ -34,6 +34,13 @@ p,h1,h2,h3,h4,h5,a,li {
 
 
 ::v-deep h1 {
+  background-color: rgb(207, 213, 213);
+  padding: 10px 5px;
   margin-top: 20px;
+  border-radius: 8px;
+}
+
+::v-deep h2 {
+  border-bottom: 1px solid #000;
 }
 </style>>

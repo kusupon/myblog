@@ -23,6 +23,7 @@ import '/'
 <style lang="scss">
 @import '/assets/scss/main.scss';
 * {
+  font-family: sans-serif;
   box-sizing: border-box;
 }
 
