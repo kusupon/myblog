@@ -57,10 +57,15 @@ aside {
   }
   h2 {
     margin-top: 30px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 0;
+    background-color: rgb(61, 62, 93);
   }
   @include mobile {
     border-top: 2px solid #000;
     width: 100%;
+    margin: 0;
     
   }
   

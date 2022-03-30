@@ -35,7 +35,7 @@ main {
 }
 
 
-p,h1,h2,h3,h4,h5,a,li {
+p,h2,h3,h4,h5,a,li,img {
   margin-top: 10px;
 }
 
