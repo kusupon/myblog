@@ -1,5 +1,8 @@
 <template>
   <aside>
+    <div class="logo">
+      <img src="https://kusupon.com/img/IMG_3930.jpeg" alt="アイコン" />
+    </div>
     <div class="introduction">
       <h2 class="name">profile</h2>
       <p>名前:kusupon</p>
@@ -13,7 +16,6 @@
           rel="noopener noreferrer"
           class="twitter"
         >
-          <font-awesome-icon icon="fa-brands fa-twitter" />
           Twitter
         </a>
       </div>
@@ -24,7 +26,6 @@
           rel="noopener noreferrer"
           class="instagram"
         >
-          <font-awesome-icon icon="fa-brands fa-instagram" />
           Instagram
         </a>
       </div>
@@ -35,7 +36,6 @@
           rel="noopener noreferrer"
           class="github"
         >
-          <font-awesome-icon icon="fa-brands fa-github" />
           GitHub
         </a>
       </div>
@@ -43,16 +43,28 @@
   </aside>
 </template>
 
+<script>
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+export default {
+  computed: {
+    faTwitter() {
+      return faTwitter;
+    },
+  },
+};
+</script>
 <style lang="scss" scoped>
-@import '/assets/scss/main.scss';
+@import "/assets/scss/main.scss";
 aside {
-  margin-left: 10px;
+  margin-left: 30px;
   text-align: center;
   width: 25%;
-  .rogo {
+  .logo {
     margin-top: 30px;
     img {
       border-radius: 15px;
+      width: 200px;
+      height: 200px;
     }
   }
   h2 {
@@ -66,9 +78,7 @@ aside {
     border-top: 2px solid #000;
     width: 100%;
     margin: 0;
-    
   }
-  
 }
 
 .SNS {
@@ -81,7 +91,6 @@ aside {
   text-align: center;
   width: 100%;
   margin-top: 8px;
-  margin-left: 8px;
 }
 
 .twitter:hover {
@@ -123,9 +132,5 @@ aside {
   .snsBtn {
     width: 100%;
   }
-}
-
-.introduction {
-  margin: 20px;
 }
 </style>
