@@ -29,7 +29,7 @@ main .content {
 
 main {
   width: 70%;
-  @include mobile {
+  @include tablet {
     width: 90%;
   }
 }

@@ -78,6 +78,7 @@ aside {
     border-top: 2px solid #000;
     width: 100%;
     margin: 0;
+    margin-top: 100px;
   }
 }
 
