@@ -37,7 +37,7 @@ import '/'
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  @include mobile {
+  @include tablet {
     display: block;
   }
 }
@@ -48,7 +48,7 @@ body {
 .cards {
   display: block;
   width: 70%;
-  @include mobile {
+  @include tablet {
     margin: 0 auto;
     width: 100%;
   }
