@@ -13,31 +13,16 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    head: {
-      htmlAttrs: {
-        lang: 'ja',
-        prefix: 'og: http://ogp.me/ns#'
-      },
-      titleTemplate: '%s - ' + 'タイトル',
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'kusuponblog' || '' },
-        { hid: 'keywords', name: 'keywords', content: 'kusuponblog,kusupon,blog' },
-  
-        { hid: 'og:site_name', property: 'og:site_name', content: 'kusuponblog' },
-        { hid: 'og:type', property: 'og:type', content: 'blog' },
-        { hid: 'og:url', property: 'og:url', content: 'https://kusuponblog.netlify.app/' },
-        { hid: 'og:title', property: 'og:title', content: 'kusuponblog' },
-        { hid: 'og:description', property: 'og:description', content: 'kusuponblog' },
-        { hid: 'og:image', property: 'og:image', content: 'https://kusuponblog.netlify.app/' },
-  
-        { hid: 'fb:app_id', property: 'fb:app_id', content: 'App-ID' },
-        { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-        { hid: 'twitter:site', name: 'twitter:site', content: '@Twitter' }
-  
-      ],
+    title: 'myblog',
+    htmlAttrs: {
+      lang: 'ja'
     },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'format-detection', content: 'telephone=no' }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]

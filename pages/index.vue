@@ -14,10 +14,6 @@ export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articles').fetch()
     return { articles }
-  },
-  head: {
-    titleTemplate: null,
-    title: 'kusuponblog'
   }
 }
 
