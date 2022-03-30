@@ -46,6 +46,7 @@
 <style lang="scss" scoped>
 @import '/assets/scss/main.scss';
 aside {
+  margin-left: 10px;
   text-align: center;
   width: 25%;
   .rogo {

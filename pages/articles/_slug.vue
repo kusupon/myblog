@@ -21,12 +21,19 @@ main .content {
 }
 
 * {
-  width: 70%;
+  width: 100%;
   @include mobile {
-    width: 90%;
     margin: 0 auto;
   }
 }
+
+main {
+  width: 70%;
+  @include mobile {
+    width: 90%;
+  }
+}
+
 
 p,h1,h2,h3,h4,h5,a,li {
   margin-top: 10px;

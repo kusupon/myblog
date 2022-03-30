@@ -2,6 +2,7 @@
 title: ブログ始めました
 description: Learn how to use @nuxt/content.
 ---
-![image]()
+<img src="https://kusupon.com/assets/kusuponBLOG.jpg" width="100%"/>
+
 ## 初めまして
 こんにちはkusuponと言います
