@@ -1,7 +1,7 @@
 <template>
   <aside>
     <div class="logo">
-      <img src="https://kusupon.com/img/IMG_3930.jpeg" alt="アイコン" />
+      <img src="https://kusupon.com/img/image.webp" alt="アイコン" />
     </div>
     <div class="introduction">
       <h2 class="name">profile</h2>
