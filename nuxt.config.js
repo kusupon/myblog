@@ -62,11 +62,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  },
-  modules: ['@nuxtjs/sitemap'],
-  // @nuxtjs/sitemap のカスタム設定
-  sitemap: {
-    path: '/sitemap.xml',
-    hostname: 'https://kusuponblog.netlify.app/'
   }
 }
